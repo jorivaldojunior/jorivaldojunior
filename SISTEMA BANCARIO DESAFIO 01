@@ -1,0 +1,195 @@
+PROJETO: SISTEMA BANCARIO DESAFIO 01
+
+
+menu = """
+#################[SISTEMA BANCARIO DESAFIO 01]###################
+[d] Depositar
+[s] Sacar
+[e] Extrato
+[q] Sair
+
+====>: """"" 
+
+valor = 0
+saldo = 0
+limite_diario = 500
+total_saques = 0
+num_saques = 0
+LIMITE_SAQUES = 3
+
+extrato = """"""
+
+
+import os
+while True:
+
+    opcao = input(menu)
+    os.system("cls") or None
+    
+    
+
+    if opcao == "d":
+        valor = float(input("Digite o Valor Que Deseja Depositar:  "))
+        if valor > 0:
+            print("Deposito Em Analise, Confira o Extrato Na Opção [e]...!")
+            saldo += valor
+            extrato += f"""{valor:.2f} Foi Depositado Na Sua Conta! \n"""
+        else:
+            print("Falha, Digite Um Valor Válido!\n")
+            print("[Se Desejar Continuar, Escolha Uma Das Opções Logo Abaixo...!]")
+            
+            
+            
+    elif opcao == "s":
+        if num_saques < LIMITE_SAQUES:
+            valor = float(input("Digite o Valor Que Deseja Sacar:  "))
+            
+            if valor > limite_diario or valor > saldo or total_saques + valor >= limite_diario + 1:
+                print("""Aguarde Um Minuto, Estamos Validando as Informações...!\n
+Saque Não Autorizado...!\n 
+                        
+[1- Verifique O saldo Em Sua Conta!]
+[2- Os Numeros De Saques Diarios, Autorizados De Sua Conta São: (3)!]
+[3- O Valor Total  De Saque, Por Transação Da Sua Conta é:(R$500,00) !]
+[4- Dúvidas Procure Seu Gerente...!] \n""")
+                
+                print("[Se Desejar Continuar, Escolha Uma Das Opções Logo Abaixo...!]") 
+                
+            else:    
+                saldo -= valor
+                extrato += f"""{valor:.2f} Foi Retirado de Sua Conta! \n"""
+                num_saques += 1
+                total_saques += valor
+                print(f"""Aguarde A Contagem Das Notas...!
+[Saque Realizado Com Sucesso...!] : R${valor:.2f}""")
+        else:
+            print("Limite De Saques Excedido!\n")
+            print("[Se Desejar Continuar, Escolha Uma Das Opções Logo Abaixo...!]")
+                
+                
+                
+                
+    elif opcao == "e":
+        print(f"*************** EXTRATO *****************\n")
+        print(f"Seu Saldo Atual É De R${saldo:.2f}\n")        
+        print(f"{extrato}\n")
+        print(f"*************** FIM_EXTRATO **************\n")
+        
+        
+        print("[Se Desejar Continuar, Escolha Uma Das Opções Logo Abaixo...!]")
+
+    elif opcao == "q":
+        print("Atendimento Encerrado, O Nosso Banco Agradece A sua Preferencia...!\n")
+        print("###################################################################\n")
+        
+        break
+
+    else:
+        print("Falha Na Comunicação, Selecione Uma Opção Válida!\n")
+   
+        print("[Se Desejar Continuar, Escolha Uma Das Opções Logo Abaixo...!]")
+  
+"""            
+
+            #################[SISTEMA BANCARIO DESAFIO 01]###################
+[d] Depositar
+[s] Sacar
+[e] Extrato
+[q] Sair
+
+====>: s
+Digite o Valor Que Deseja Sacar:  355
+Aguarde Um Minuto, Estamos Validando as Informações...!
+
+Saque Não Autorizado...!
+ 
+                        
+[1- Verifique O saldo Em Sua Conta!]
+[2- Os Numeros De Saques Diarios, Autorizados De Sua Conta São: (3)!]
+[3- O Valor Total  De Saque, Por Transação Da Sua Conta é:(R$500,00) !]
+[4- Dúvidas Procure Seu Gerente...!] 
+
+[Se Desejar Continuar, Escolha Uma Das Opções Logo Abaixo...!]
+
+#################[SISTEMA BANCARIO DESAFIO 01]###################
+[d] Depositar
+[s] Sacar
+[e] Extrato
+[q] Sair
+
+====>: e
+*************** EXTRATO *****************
+
+Seu Saldo Atual É De R$0.00
+
+
+
+*************** FIM_EXTRATO **************
+
+[Se Desejar Continuar, Escolha Uma Das Opções Logo Abaixo...!]
+
+#################[SISTEMA BANCARIO DESAFIO 01]###################
+[d] Depositar
+[s] Sacar
+[e] Extrato
+[q] Sair
+
+====>: 230
+Falha Na Comunicação, Selecione Uma Opção Válida!
+
+[Se Desejar Continuar, Escolha Uma Das Opções Logo Abaixo...!]
+
+#################[SISTEMA BANCARIO DESAFIO 01]###################
+[d] Depositar
+[s] Sacar
+[e] Extrato
+[q] Sair
+
+====>: d
+Digite o Valor Que Deseja Depositar:  350
+Deposito Em Analise, Confira o Extrato Na Opção [e]...!
+
+#################[SISTEMA BANCARIO DESAFIO 01]###################
+[d] Depositar
+[s] Sacar
+[e] Extrato
+[q] Sair
+
+====>: e
+*************** EXTRATO *****************
+
+Seu Saldo Atual É De R$350.00
+
+350.00 Foi Depositado Na Sua Conta! 
+
+
+*************** FIM_EXTRATO **************
+
+[Se Desejar Continuar, Escolha Uma Das Opções Logo Abaixo...!]
+
+#################[SISTEMA BANCARIO DESAFIO 01]###################
+[d] Depositar
+[s] Sacar
+[e] Extrato
+[q] Sair
+
+====>: s
+Digite o Valor Que Deseja Sacar:  350
+Aguarde A Contagem Das Notas...!
+[Saque Realizado Com Sucesso...!] : R$350.00
+   
+#################[SISTEMA BANCARIO DESAFIO 01]###################
+[d] Depositar
+[s] Sacar
+[e] Extrato
+[q] Sair
+
+====>: q
+Atendimento Encerrado, O Nosso Banco Agradece A sua Preferencia...!
+
+###################################################################               
+    
+"""
+
+
+            
