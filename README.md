@@ -25,6 +25,6 @@ Se quiser incluir exemplos de projetos ou ajustar algo, é só pedir, meu foco e
 
 - <img src= "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
 
-[![jorivaldo's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![jorivaldostats](https://github-readme-stats.vercel.app/api?username=jorivaldojunior)](https://github.com/anuraghazra/github-readme-stats)
 
 
