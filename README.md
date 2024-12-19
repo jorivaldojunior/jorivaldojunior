@@ -29,4 +29,6 @@ Se quiser incluir exemplos de projetos ou ajustar algo, é só pedir, meu foco e
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jorivaldojunior)](https://github.com/anuraghazra/github-readme-stats)
 
+![](https://komarev.com/ghpvc/?username=your-github-jorivaldojunior)
+
 
