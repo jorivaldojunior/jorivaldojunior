@@ -15,7 +15,6 @@ Atualmente, estou me aprofundando em meus estudos em Frontend , com foco em HTML
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:30px; height:30px;">
 </a>
 
-
 Se quiser incluir exemplos de projetos ou ajustar algo, é só pedir, meu foco esta em estudar essas tecnologias neste momento! 😊          
 
 - <img src= "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src= "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
@@ -25,5 +24,7 @@ Se quiser incluir exemplos de projetos ou ajustar algo, é só pedir, meu foco e
 - <img src= "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src= "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
 
 - <img src= "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+
+[![jorivaldo's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 
 
