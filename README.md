@@ -7,7 +7,12 @@ Atualmente, estou me aprofundando em meus estudos em Frontend , com foco em HTML
 
 🎓 Sou estudante de Análise e Desenvolvimento de Sistemas (ADS) e estou sempre buscando expandir meus horizontes no mundo da programação.
 
-👉<a href="https://www.linkedin.com/in/jorivaldo-azevedo?trk=contact-info" class="text-blue-400 hover:underline" >LinkedIn  - Jorivaldo Azevedo 
+👉<a href="https://www.linkedin.com/in/jorivaldo-azevedo?trk=contact-info" class="text-blue-400 hover:underline" >LinkedIn  - Jorivaldo Azevedo-
+
+<a href="https://wa.me/5581991152307" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:30px; height:30px;">
+</a>
+
 
 Se quiser incluir exemplos de projetos ou ajustar algo, é só pedir, meu foco esta em estudar essas tecnologias neste momento! 😊          
 
