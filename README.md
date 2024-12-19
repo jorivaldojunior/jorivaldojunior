@@ -9,7 +9,7 @@ Atualmente, estou me aprofundando em meus estudos em Frontend , com foco em HTML
 
 
 
-👉 Você poderá entrar em contato comigo por esses links das minhas redes socias logo abaixo: <a href="https://www.linkedin.com/in/jorivaldo-azevedo" target="_blank">
+👉 Você poderá entrar em contato comigo clicando nesses links das minhas redes socias logo abaixo: <a href="https://www.linkedin.com/in/jorivaldo-azevedo" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" style="width:30px; height:30px;"></a>
 <a href="https://wa.me/5581991152307" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:30px; height:30px;">
